@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BitManipulationone",
+            "request": "launch",
+            "mainClass": "BitManipulationone",
+            "projectName": "DSA _f32dbcfb"
+        },
+        {
+            "type": "java",
             "name": "arraypracticequestion",
             "request": "launch",
             "mainClass": "arraypracticequestion",
