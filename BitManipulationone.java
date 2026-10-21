@@ -38,6 +38,7 @@ public class BitManipulationone {
         System.out.println(setIthBit(10, 2));
         System.out.println(setIthBit(10, 3));
         System.out.println(clearIthBit(10,1));
+        
     }
     
 }
