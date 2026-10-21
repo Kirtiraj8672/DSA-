@@ -22,6 +22,11 @@ public class BitManipulationone {
         return n | bitmask;
 
     }
+
+    public static int clearIthBit(int n , int i ){
+        int bitMask = ~(1<<i);
+        return n & bitMask;
+    }
     public static void main(String[] args) {
         oddOreven(3);
         oddOreven(11);
@@ -32,6 +37,7 @@ public class BitManipulationone {
         System.out.println(getIthBit(10, 3));
         System.out.println(setIthBit(10, 2));
         System.out.println(setIthBit(10, 3));
+        System.out.println(clearIthBit(10,1));
     }
     
 }
