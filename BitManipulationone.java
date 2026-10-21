@@ -24,6 +24,7 @@ public class BitManipulationone {
         oddOreven(89);
 
         System.out.println(getIthBit(10, 2));
+        System.out.println(getIthBit(10, 3));
     }
     
 }
