@@ -70,6 +70,9 @@ public class BitManipulationone {
 
         //clear last ith 
         System.out.println(clearLastIthBit(15, 2));
+
+        //clearrange of bit 
+         System.out.println(clearRangeOfBit(15, 2 ,3));
         
     }
     
