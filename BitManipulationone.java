@@ -36,7 +36,7 @@ public class BitManipulationone {
         // }
 
         //approach 2 
-        n = clearIthBit(n, newBit);
+        n = clearIthBit(n, i);
         int Bitmask =  newBit<<i;
         return n | Bitmask;
 
