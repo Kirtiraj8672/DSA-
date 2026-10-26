@@ -39,8 +39,11 @@ public class BitManipulationone {
         n = clearIthBit(n, i);
         int Bitmask =  newBit<<i;
         return n | Bitmask;
+    }
 
-
+    public static int clearLastIthBit(int n , int i ){
+        int bitMask = (~0)>>i;
+        return n & bitMask;
     }
     public static void main(String[] args) {
         oddOreven(3);
@@ -53,6 +56,12 @@ public class BitManipulationone {
         System.out.println(setIthBit(10, 2));
         System.out.println(setIthBit(10, 3));
         System.out.println(clearIthBit(10,1));
+
+        //update ith bit 
+        System.out.println(updateIthBit(10, 2, 1));
+
+        //clear last ith 
+        System.out.println(updateIthBit(10, 2, 1));
         
     }
     
