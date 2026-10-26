@@ -73,6 +73,7 @@ public class BitManipulationone {
 
         //clearrange of bit 
          System.out.println(clearRangeOfBit(15, 2 ,3));
+        System.out.println(clearRangeOfBit(10, 2 ,4));
         
     }
     
