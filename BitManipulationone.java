@@ -61,7 +61,7 @@ public class BitManipulationone {
         System.out.println(updateIthBit(10, 2, 1));
 
         //clear last ith 
-        System.out.println(updateIthBit(10, 2, 1));
+        System.out.println(clearLastIthBit(15, 2));
         
     }
     
