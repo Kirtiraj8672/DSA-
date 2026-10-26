@@ -53,6 +53,10 @@ public class BitManipulationone {
         return n & bitMask;
 
     }
+
+    public static boolean isPowerOfTwo(int n){
+        return (n & (n-1)) == 0 ;
+    }
     public static void main(String[] args) {
         oddOreven(3);
         oddOreven(11);
