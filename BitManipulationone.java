@@ -74,6 +74,9 @@ public class BitManipulationone {
         //clearrange of bit 
          System.out.println(clearRangeOfBit(15, 2 ,3));
         System.out.println(clearRangeOfBit(10, 2 ,4));
+
+
+        //check if a number is power of 2 or not 
         
     }
     
