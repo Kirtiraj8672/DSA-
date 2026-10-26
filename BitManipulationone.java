@@ -29,11 +29,18 @@ public class BitManipulationone {
     }
 
     public static int updateIthBit(int n , int i ,int newBit){
-        if(newBit == 0 ){
-            return clearIthBit(n, i);
-        }else{
-            return clearIthBit(n, i);
-        }
+        // if(newBit == 0 ){
+        //     return clearIthBit(n, i);
+        // }else{
+        //     return setIthBit(n, i);
+        // }
+
+        //approach 2 
+        n = clearIthBit(n, newBit);
+        int Bitmask =  newBit<<i;
+        return n | Bitmask;
+
+
     }
     public static void main(String[] args) {
         oddOreven(3);
