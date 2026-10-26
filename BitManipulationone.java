@@ -57,6 +57,18 @@ public class BitManipulationone {
     public static boolean isPowerOfTwo(int n){
         return (n & (n-1)) == 0 ;
     }
+
+    public static int countSetBit(int n ) {
+        int count  =0 ;
+        while(n>0){
+            if( (n & 1 ) !=0){;//check the least segnificant bit 
+            count++;
+        }
+        n = n>>1;
+        }
+
+        return count ; 
+    }
     public static void main(String[] args) {
         oddOreven(3);
         oddOreven(11);
@@ -85,6 +97,9 @@ public class BitManipulationone {
         System.out.println(isPowerOfTwo(4));
         System.out.println(isPowerOfTwo(5));
         System.out.println(isPowerOfTwo(16));
+
+        //count set bit in a number 
+
                 
     }
     
