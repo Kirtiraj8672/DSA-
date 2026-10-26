@@ -81,7 +81,11 @@ public class BitManipulationone {
 
 
         //check if a number is power of 2 or not 
-        
+        System.out.println(isPowerOfTwo(2));
+        System.out.println(isPowerOfTwo(4));
+        System.out.println(isPowerOfTwo(5));
+        System.out.println(isPowerOfTwo(16));
+                
     }
     
 }
