@@ -83,6 +83,12 @@ public class BitManipulationone {
         }
         return ans;
     }
+    
+    public static int modExpo(int a , int n , int m ){
+        int ans = 1 ;
+        while (n > 0){}
+
+    }
     public static void main(String[] args) {
         oddOreven(3);
         oddOreven(11);
@@ -119,6 +125,8 @@ public class BitManipulationone {
 
         //fast exponentiation
         System.out.println(fastExpo(3,5));
+
+        //modular exponentiation
 
 
 
