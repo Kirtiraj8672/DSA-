@@ -100,6 +100,12 @@ public class BitManipulationone {
 
         //count set bit in a number 
 
+        System.out.println(countSetBit(10));
+        System.out.println(countSetBit(2));
+
+
+
+
                 
     }
     
