@@ -31,6 +31,10 @@ public class BitManipulationpraticequestion {
         System.out.println("a = "+a);
         System.out.println("b = "+b);
     }
+
+    public static long add(int n ){
+        return -(~n);
+    }
     public static void main(String[] args) {
         //question 1  x^x for any x 
         System.out.println(expoOne(2));
@@ -42,6 +46,10 @@ public class BitManipulationpraticequestion {
         //question 2 swap
 
         swap(10, 4);
+
+        //question 3 add 1 using bit manipulation 
+        System.out.println(add(7));
+
 
 
     }
