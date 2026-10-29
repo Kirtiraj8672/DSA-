@@ -86,7 +86,16 @@ public class BitManipulationone {
     
     public static int modExpo(int a , int n , int m ){
         int ans = 1 ;
-        while (n > 0){}
+        while (n > 0){
+            if((n & 1) != 0){
+                ans  = (int) ((long) a * ans % m); 
+            }
+
+            a = (int) ((long) a * a % m);
+
+            n = n >> 1;
+        }
+        return ans;
 
     }
     public static void main(String[] args) {
@@ -127,6 +136,8 @@ public class BitManipulationone {
         System.out.println(fastExpo(3,5));
 
         //modular exponentiation
+        System.out.println(modExpo(3,13,7));
+
 
 
 
