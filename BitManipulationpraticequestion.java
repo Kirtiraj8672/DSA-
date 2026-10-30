@@ -50,6 +50,10 @@ public class BitManipulationpraticequestion {
         //question 3 add 1 using bit manipulation 
         System.out.println(add(7));
 
+        //quesition 4 convert upper to lower case using bit 
+
+
+
 
 
     }
