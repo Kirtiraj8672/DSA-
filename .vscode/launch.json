@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OOPS",
+            "request": "launch",
+            "mainClass": "OOPS",
+            "projectName": "DSA _f32dbcfb"
+        },
+        {
+            "type": "java",
             "name": "BitManipulationpraticequestion",
             "request": "launch",
             "mainClass": "BitManipulationpraticequestion",
