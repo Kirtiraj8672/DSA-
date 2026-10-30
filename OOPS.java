@@ -21,6 +21,16 @@ class Pen {
     }
 }
 
+class Student{
+    String name ; 
+    int age;
+    float percentage ;//cgpa
+
+    void calcPercentage(int phy , int chem , int math){
+        percentage = (phy + chem + math)/3;
+    }
+}
+
 // 4. Main class (Program execution starts here)
 public class OOPS {
 
