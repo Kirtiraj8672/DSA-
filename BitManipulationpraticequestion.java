@@ -35,6 +35,10 @@ public class BitManipulationpraticequestion {
     public static long add(int n ){
         return -(~n);
     }
+
+    public static void convertUpToLow(int n ){
+        
+    }
     public static void main(String[] args) {
         //question 1  x^x for any x 
         System.out.println(expoOne(2));
@@ -51,6 +55,8 @@ public class BitManipulationpraticequestion {
         System.out.println(add(7));
 
         //quesition 4 convert upper to lower case using bit 
+
+        
 
 
 
