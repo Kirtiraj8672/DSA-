@@ -36,8 +36,9 @@ public class BitManipulationpraticequestion {
         return -(~n);
     }
 
-    public static void convertUpToLow(int n ){
-        
+    public static char toLowerCase(char ch ){
+        return (char) (ch | ' ');
+
     }
     public static void main(String[] args) {
         //question 1  x^x for any x 
