@@ -38,7 +38,6 @@ public class BitManipulationpraticequestion {
 
     public static char toLowerCase(char ch ){
         return (char) (ch | ' ');
-
     }
     public static void main(String[] args) {
         //question 1  x^x for any x 
@@ -57,8 +56,8 @@ public class BitManipulationpraticequestion {
 
         //quesition 4 convert upper to lower case using bit 
 
+        System.out.println(toLowerCase(A));
         
-
 
 
 
