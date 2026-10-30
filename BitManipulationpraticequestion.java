@@ -56,8 +56,11 @@ public class BitManipulationpraticequestion {
 
         //quesition 4 convert upper to lower case using bit 
 
-        System.out.println(toLowerCase(A));
-        
+            System.out.println(toLowerCase('A'));
+        System.out.println(toLowerCase('B'));
+        System.out.println(toLowerCase('E'));
+        System.out.println(toLowerCase('P'));
+
 
 
 
