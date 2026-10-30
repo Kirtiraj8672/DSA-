@@ -42,6 +42,9 @@ public class OOPS {
         // 6. Assign values using setter methods
         p1.setColor("Blue");
         p1.setTip(5);
+        //or
+        p1.color = "Yellow";
+        p1.tip= 3;
 
         // 7. Display object data
         p1.display();
