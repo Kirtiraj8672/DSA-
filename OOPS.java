@@ -36,7 +36,7 @@ public class OOPS {
 
     public static void main(String[] args) {
 
-        // 5. Object creation
+        // 5. Object creation created a pen object called p1
         Pen p1 = new Pen();
 
         // 6. Assign values using setter methods
