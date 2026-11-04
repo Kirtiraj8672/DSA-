@@ -18,7 +18,7 @@ public class OOPS {
 
         BankAccount myAcc = new BankAccount();
         myAcc.username = "Kirtiraj Vansadiya";
-        myAcc.password = "abcdefghi";
+        myAcc.setPassword("abcdefghi");
     }
 }
 
@@ -57,4 +57,7 @@ class Student{
 class BankAccount{
     public String username;
     private String password;
+    public void setPassword(String pwd){
+        password = pwd;
+    }
 }
