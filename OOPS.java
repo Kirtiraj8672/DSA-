@@ -24,11 +24,25 @@ public class OOPS {
 
         //constructors
         Student s1 =new Student("kirti");
+        
         System.out.println(s1.name);
 
         Student s2 = new Student();
         Student s3 = new Student(1234657889);
         System.out.println(s3.roll);
+
+        //copyconstructors
+        Student s4 = new Student();
+            s4.name = "manan";
+            s4.roll = 456;
+            s4.password = "abc";
+
+        Student s5 = new Student(s4);
+        s4.password = "opopop";
+
+
+        
+
     }
 }
 
@@ -85,6 +99,7 @@ class BankAccount{
 class Student {
     String name;
     int roll;
+    String password;
 
     //parameterized
     Student(String name){
@@ -98,6 +113,13 @@ class Student {
     Student(){
         System.out.println("constructor is working!!!!!!!!!!1");
     }
+    //copy constructor
+    Student(Student s4){
+        this.name = s4.name;
+        this.roll = s4.roll;
+    }
+    
 
+    
 
 }
