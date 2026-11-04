@@ -52,20 +52,31 @@ class Pen {
     }
 }
 
-class Student{
-    String name ; 
-    int age;
-    float percentage ;//cgpa
+// class Student{
+//     String name ; 
+//     int age;
+//     float percentage ;//cgpa
 
-    void calcPercentage(int phy , int chem , int math){
-        percentage = (phy + chem + math)/3;
-    }
-}
+//     void calcPercentage(int phy , int chem , int math){
+//         percentage = (phy + chem + math)/3;
+//     }
+// }
 
 class BankAccount{
     public String username;
     private String password;
     public void setPassword(String pwd){
         password = pwd;
+    }
+}
+
+//constructors
+
+class Student {
+    String name;
+    int roll;
+
+    Student(){
+        
     }
 }
