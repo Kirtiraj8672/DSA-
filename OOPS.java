@@ -45,7 +45,7 @@ public class OOPS {
         
         //changing marks of s4
         s4.marks[2]=33;
-        
+
         for(int i = 0 ; i <3 ;i++){
             System.out.println(s5.marks[i]);
         }
@@ -127,11 +127,14 @@ class Student {
         marks = new int[3];
     }
     //copy constructor
+    //shallow copy constructor
     Student(Student s4){
         this.name = s4.name;
         this.roll = s4.roll;
         this.marks = s4.marks;
     }
+    //deep cpoy constructor
+    
     
 
     
