@@ -44,7 +44,7 @@ public class OOPS {
         s4.password = "opopop";
 
         for(int i = 0 ; i <3 ;i++){
-            System.out.println(s4.marks[i]);
+            System.out.println(s5.marks[i]);
         }
 
         
