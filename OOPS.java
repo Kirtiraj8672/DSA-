@@ -42,7 +42,10 @@ public class OOPS {
 
         Student s5 = new Student(s4);
         s4.password = "opopop";
-
+        
+        //changing marks of s4
+        s4.marks[2]=33;
+        
         for(int i = 0 ; i <3 ;i++){
             System.out.println(s5.marks[i]);
         }
