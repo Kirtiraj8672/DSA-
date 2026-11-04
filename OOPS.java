@@ -100,6 +100,7 @@ class Student {
     String name;
     int roll;
     String password;
+    int marks[];
 
     //parameterized
     Student(String name){
@@ -112,11 +113,13 @@ class Student {
     //non-parameterized
     Student(){
         System.out.println("constructor is working!!!!!!!!!!1");
+        marks = new int[3];
     }
     //copy constructor
     Student(Student s4){
         this.name = s4.name;
         this.roll = s4.roll;
+        marks = new int[3];
     }
     
 
