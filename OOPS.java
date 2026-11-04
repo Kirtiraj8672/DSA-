@@ -1,3 +1,26 @@
+// 4. Main class (Program execution starts here)
+public class OOPS {
+
+    public static void main(String[] args) {
+
+        // 5. Object creation created a pen object called p1
+        Pen p1 = new Pen();
+
+        // 6. Assign values using setter methods
+        p1.setColor("Blue");
+        p1.setTip(5);
+        //or
+        p1.color = "Yellow";
+        p1.tip= 3;
+
+        // 7. Display object data
+        p1.display();
+
+        BankAccount myAcc = new BankAccount();
+        myAcc.username = "Kirtiraj Vansadiya";
+        myAcc.password = "abcdefghi";
+    }
+}
 
 class Pen {
 
@@ -31,27 +54,7 @@ class Student{
     }
 }
 
-// 4. Main class (Program execution starts here)
-public class OOPS {
-
-    public static void main(String[] args) {
-
-        // 5. Object creation created a pen object called p1
-        Pen p1 = new Pen();
-
-        // 6. Assign values using setter methods
-        p1.setColor("Blue");
-        p1.setTip(5);
-        //or
-        p1.color = "Yellow";
-        p1.tip= 3;
-
-        // 7. Display object data
-        p1.display();
-    }
-}
-
-
 class BankAccount{
-    String
+    public String username;
+    private String password;
 }
