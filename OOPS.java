@@ -16,6 +16,8 @@ public class OOPS {
         // 7. Display object data
         p1.display();
 
+        p1.getColor();
+
         BankAccount myAcc = new BankAccount();
         myAcc.username = "Kirtiraj Vansadiya";
         myAcc.setPassword("abcdefghi");
