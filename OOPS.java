@@ -25,6 +25,8 @@ public class OOPS {
         //constructors
         Student s1 =new Student("kirti");
         System.out.println(s1.name);
+
+        Student s2 = new Student();
     }
 }
 
@@ -82,7 +84,13 @@ class Student {
     String name;
     int roll;
 
+    //parameterized
     Student(String name){
         this.name = name ;
+    }
+
+    //non-parameterized
+    Student(){
+        System.out.println("constructor is working!!!!!!!!!!1");
     }
 }
