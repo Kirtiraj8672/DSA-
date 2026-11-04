@@ -36,10 +36,16 @@ public class OOPS {
             s4.name = "manan";
             s4.roll = 456;
             s4.password = "abc";
+            s4.marks[0]=100;
+            s4.marks[1]=90;
+            s4.marks[2]=80;
 
         Student s5 = new Student(s4);
         s4.password = "opopop";
 
+        for(int i = 0 ; i <3 ;i++){
+            System.out.println(s4.marks[i]);
+        }
 
         
 
