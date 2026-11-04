@@ -32,6 +32,7 @@ public class OOPS {
         System.out.println(s3.roll);
 
         //copyconstructors
+        // shallow copy constructors
         Student s4 = new Student();
             s4.name = "manan";
             s4.roll = 456;
@@ -50,6 +51,25 @@ public class OOPS {
             System.out.println(s5.marks[i]);
         }
 
+
+        //deeep copy constructor
+        Student s6 = new Student();
+            s6.name = "yashraj";
+            s6.roll = 45226;
+            s6.password = "abbbbc";
+            s6.marks[0]=50;
+            s6.marks[1]=60;
+            s6.marks[2]=30;
+
+        Student s7 = new Student(s6);
+        s7.password = "opoporrrrrp";
+        
+        //changing marks of s6
+        s6.marks[2]=43;
+
+        for(int i = 0 ; i <3 ;i++){
+            System.out.println(s7.marks[i]);
+        }
         
 
     }
@@ -128,13 +148,20 @@ class Student {
     }
     //copy constructor
     //shallow copy constructor
-    Student(Student s4){
-        this.name = s4.name;
-        this.roll = s4.roll;
-        this.marks = s4.marks;
-    }
+    // Student(Student s4){
+    //     this.name = s4.name;
+    //     this.roll = s4.roll;
+    //     this.marks = s4.marks;
+    // }
     //deep cpoy constructor
-    
+    Student(Student s6){
+        this.name = s6.name;
+        this.roll = s6.roll;
+        marks = new int[3];
+        for(int i = 0 ; i<= marks.length;i++){
+            this.marks[i] = s6.marks[i];
+        }
+    }
     
 
     
