@@ -105,10 +105,12 @@ class Student {
     //parameterized
     Student(String name){
         this.name = name ;
+        marks = new int[3];
     }
 
     Student(int roll){
         this.roll=roll;
+        marks = new int[3];
     }
     //non-parameterized
     Student(){
@@ -119,7 +121,7 @@ class Student {
     Student(Student s4){
         this.name = s4.name;
         this.roll = s4.roll;
-        marks = new int[3];
+        this.marks = s4.marks;
     }
     
 
