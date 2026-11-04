@@ -1,8 +1,8 @@
 // 4. Main class (Program execution starts here)
 public class OOPS {
-
+    
     public static void main(String[] args) {
-
+        
         // 5. Object creation created a pen object called p1
         Pen p1 = new Pen();
 
@@ -27,6 +27,8 @@ public class OOPS {
         System.out.println(s1.name);
 
         Student s2 = new Student();
+        Student s3 = new Student(1234657889);
+        System.out.println(s3.roll);
     }
 }
 
@@ -89,8 +91,13 @@ class Student {
         this.name = name ;
     }
 
+    Student(int roll){
+        this.roll=roll;
+    }
     //non-parameterized
     Student(){
         System.out.println("constructor is working!!!!!!!!!!1");
     }
+
+
 }
