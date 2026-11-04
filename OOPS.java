@@ -21,6 +21,10 @@ public class OOPS {
         BankAccount myAcc = new BankAccount();
         myAcc.username = "Kirtiraj Vansadiya";
         myAcc.setPassword("abcdefghi");
+
+        //constructors
+        Student s1 =new Student("kirti");
+        System.out.println(s1.name);
     }
 }
 
@@ -50,6 +54,8 @@ class Pen {
     String getColor(){
         return this.color;
     }
+
+
 }
 
 // class Student{
@@ -76,7 +82,7 @@ class Student {
     String name;
     int roll;
 
-    Student(){
-        
+    Student(String name){
+        this.name = name ;
     }
 }
