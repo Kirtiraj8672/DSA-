@@ -158,7 +158,7 @@ class Student {
         this.name = s6.name;
         this.roll = s6.roll;
         marks = new int[3];
-        for(int i = 0 ; i<= marks.length;i++){
+        for(int i = 0 ; i< marks.length;i++){
             this.marks[i] = s6.marks[i];
         }
     }
