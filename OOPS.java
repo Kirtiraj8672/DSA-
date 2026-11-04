@@ -28,6 +28,7 @@ class Pen {
     String color;
     int tip;
 
+    //setter
     // 2. Setter methods (Assign values)
     void setColor(String newColor) {
         color = newColor;
@@ -37,10 +38,15 @@ class Pen {
         tip = newTip;
     }
 
+    //getter
     // 3. Display method (Show values)
     void display() {
         System.out.println("Pen color: " + color);
         System.out.println("Pen tip: " + tip);
+    }
+    //or
+    String getColor(){
+        return this.color;
     }
 }
 
