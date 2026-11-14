@@ -166,9 +166,15 @@ class Student {
 
 //inheritance
 
+
+//base classs
 class Animals{
     String color;
     void eat(){
-        Sy
+        System.out.println("eats");
+    }
+
+    void breathe(){
+        System.out.println("Breathes");
     }
 }
