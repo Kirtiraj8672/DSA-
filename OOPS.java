@@ -306,7 +306,7 @@ class Animals{
         String color;
         Animal1(){
             // color = "Brown";
-            System.out.println("animal constructor called ");
+            System.out.println("animal1 constructor called ");
         }
 
 
@@ -318,7 +318,7 @@ class Animals{
     class Horse extends Animal1{
 
         Horse(){
-            System.out.println("");
+            System.out.println("Horse constructor called");
         }
 
         void changeColor(){
@@ -329,6 +329,10 @@ class Animals{
         void walk (){
             System.out.println("walks on four legs");
         }
+    }
+
+    class Mustange extends Horse{
+        
     }
     class Chicken extends Animal1{
 
