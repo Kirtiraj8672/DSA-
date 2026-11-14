@@ -190,14 +190,14 @@ class Animals{
 
 //child / derived classs
 
-class Fish extends Animals{
-    int fins;
+    // class Fish extends Animals{
+    //     int fins;
 
-    void swim(){
-        System.out.println("swims in water");
-    }
+    //     void swim(){
+    //         System.out.println("swims in water");
+    //     }
 
-}
+    // }
 
 //mutlilevel inheritance
     // class Mammal extends Animals{
@@ -214,7 +214,14 @@ class Fish extends Animals{
 
 class Mammal extends Animals{
         void walks (){
-            
+            System.out.println("walks");
         }
 
     }
+class Fish extends Animals{
+
+    void swim(){
+        System.out.println("swims in water");
+    }
+
+}
