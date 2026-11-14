@@ -363,7 +363,17 @@ class Animals{
     }
 
     class Queen implements ChessPlayer{
-        PUBLIC void moves(){
+        public void moves(){
             System.out.println("UP, DOWN , LEFT, RIGHT, DIAGONAL , IN ALL 4 DIRECTION ");
+        }
+    }
+    class Rook implements ChessPlayer{
+        public void moves(){
+            System.out.println("UP, DOWN , LEFT, RIGHT");
+        }
+    }
+    class King implements ChessPlayer{
+        public void moves(){
+            System.out.println("UP, DOWN , LEFT, RIGHT, DIAGONAL (by one step) ");
         }
     }
