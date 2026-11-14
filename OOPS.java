@@ -288,4 +288,8 @@ class Animals{
 
     //abstraction
     //abstract class
-    abstract class  
+    abstract class Animala1{
+        void eat (){
+            System.out.println("animals1 eats");
+        }
+    } 
