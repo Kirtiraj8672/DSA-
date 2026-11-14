@@ -72,7 +72,8 @@ public class OOPS {
         }
         
         //inheritance 
-        Fish 
+        Fish shark = new Fish();
+        shark.eat();
 
     }
 }
