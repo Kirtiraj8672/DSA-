@@ -212,16 +212,23 @@ class Animals{
 
 //hierarchial inheritance 
 
-class Mammal extends Animals{
-        void walks (){
-            System.out.println("walks");
+    class Mammal extends Animals{
+            void walks (){
+                System.out.println("walks");
+            }
+
+        }
+    class Fish extends Animals{
+
+        void swim(){
+            System.out.println("swims");
         }
 
     }
-class Fish extends Animals{
+    class Bird extends Animals{
 
-    void swim(){
-        System.out.println("swims in water");
+        void fly(){
+            System.out.println("fly");
+        }
+
     }
-
-}
