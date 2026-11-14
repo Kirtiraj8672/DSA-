@@ -214,7 +214,7 @@ class Animals{
 
     }
 
-//hierarchial inheritance 
+//hierarchial inheritance  and hybride
 
     class Mammal extends Animals{
         int legs;
@@ -233,9 +233,15 @@ class Animals{
 
     class Shark extends Fish{
         void teeth(){
-            Sy
+            System.out.println("theeth have");
         }
     }
+    class Tuna extends Fish{
+        void wings(){
+            System.out.println("wings");
+        }
+    }
+
     class Bird extends Animals{
 
         void fly(){
