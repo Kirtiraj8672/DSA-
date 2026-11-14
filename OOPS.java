@@ -182,6 +182,10 @@ class Animals{
 //child / derived classs
 
 class Fish extends Animals{
-    
+    int fins;
+
+    void swim(){
+        System.out.println("swims");
+    }
 
 }
