@@ -101,6 +101,7 @@ public class OOPS {
         Horse h = new Horse();
         h.eat();
         h.walk();
+        System.out.println(h.color());
 
         Chicken c = new Chicken();
         c.eat();
@@ -314,12 +315,23 @@ class Animals{
     } 
     class Horse extends Animal1{
 
-        void changeCol
+        void changeColor(){
+            color = " Dark Brown ";
+        }
+
+
         void walk (){
             System.out.println("walks on four legs");
         }
     }
     class Chicken extends Animal1{
+
+
+        void changeColor(){
+            color = " white ";
+        }
+
+
         void walk(){
             System.out.println("walks on two legs");
         }
