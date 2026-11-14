@@ -75,6 +75,11 @@ public class OOPS {
         Fish shark = new Fish();
         shark.eat();
 
+        //multilevel inheritance
+        Dog dobby = new Dog();
+        dobby.eat();
+        dobby.legs= 4; 
+
     }
 }
 
