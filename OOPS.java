@@ -71,6 +71,8 @@ public class OOPS {
             System.out.println(s7.marks[i]);
         }
         
+        //inheritance 
+        Fish 
 
     }
 }
@@ -185,7 +187,7 @@ class Fish extends Animals{
     int fins;
 
     void swim(){
-        System.out.println("swims");
+        System.out.println("swims in water");
     }
 
 }
