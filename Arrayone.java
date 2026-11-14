@@ -18,7 +18,6 @@ public class Arrayone {
         return -1;
     }
 
-
     public static int findKey(String menu[] , String key1 ){
     for(int i = 0 ; i < menu.length ; i++){
         if(menu[i].equals(key1)){
