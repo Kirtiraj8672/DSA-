@@ -301,8 +301,9 @@ class Animals{
     //abstract class
     abstract class Animal1{
         //constructor in abstraction
+        String color;
         Animal1(){
-
+            color = "Brown";
         }
 
 
@@ -312,11 +313,13 @@ class Animals{
         abstract void walk();
     } 
     class Horse extends Animal1{
+
+        void changeCol
         void walk (){
             System.out.println("walks on four legs");
         }
     }
-    class Chicken extends Animala1{
+    class Chicken extends Animal1{
         void walk(){
             System.out.println("walks on two legs");
         }
