@@ -110,6 +110,8 @@ public class OOPS {
         c.eat();
         c.walk();
         System.out.println(c.color);
+
+        Mustange myHorse = new Mustange();
     }
 }
 
@@ -340,7 +342,7 @@ class Animals{
         }
     }
 
-    
+
     class Chicken extends Animal1{
 
 
