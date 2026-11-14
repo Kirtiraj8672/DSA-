@@ -192,3 +192,6 @@ class Fish extends Animals{
     }
 
 }
+
+//mutlilevel inheritance
+class Mamels
