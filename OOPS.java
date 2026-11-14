@@ -306,6 +306,7 @@ class Animals{
         String color;
         Animal1(){
             color = "Brown";
+            System.out.println("animal constr");
         }
 
 
