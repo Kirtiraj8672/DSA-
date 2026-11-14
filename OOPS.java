@@ -94,6 +94,11 @@ public class OOPS {
 
         Deer doi = new Deer();
         doi.eat();
+
+        //abstraction
+        //abstract class
+
+        Horse H 
     }
 }
 
@@ -301,6 +306,6 @@ class Animals{
     }
     class Chicken extends Animala1{
         void walk(){
-            System.out.println("");
+            System.out.println("walks on two legs");
         }
     }
