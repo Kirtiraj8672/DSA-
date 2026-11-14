@@ -76,10 +76,13 @@ public class OOPS {
         shark.eat();
 
         //multilevel inheritance
-        Dog dobby = new Dog();
-        dobby.eat();
-        dobby.legs= 4; 
-        System.out.println(dobby.legs);
+        // Dog dobby = new Dog();
+        // dobby.eat();
+        // dobby.legs= 4; 
+        // System.out.println(dobby.legs);
+
+        //hierarchical inheritance
+        
 
     }
 }
