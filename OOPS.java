@@ -1,4 +1,7 @@
 // 4. Main class (Program execution starts here)
+
+import java.lang.reflect.Constructor;
+
 public class OOPS {
     
     public static void main(String[] args) {
@@ -332,8 +335,12 @@ class Animals{
     }
 
     class Mustange extends Horse{
-        
+        Mustange(){
+            System.out.println("Mustange constructor called");     
+        }
     }
+
+    
     class Chicken extends Animal1{
 
 
