@@ -249,3 +249,14 @@ class Animals{
         }
 
     }
+
+    //polymorphism
+    //method overloading 
+    class Calculator {
+        int sum(int a , int b){
+            return a+b ; 
+        } 
+        float sum(int a , int b){
+            return a+b ; 
+        } 
+    } 
