@@ -112,7 +112,12 @@ public class OOPS {
         System.out.println(c.color);
 
         Mustange myHorse = new Mustange();
-        
+
+
+        //interface 
+
+        Queen q = new Queen();
+        q.moves();
     }
 }
 
