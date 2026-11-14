@@ -162,8 +162,6 @@ class Student {
             this.marks[i] = s6.marks[i];
         }
     }
-    
-
-    
-
 }
+
+//inheritance
