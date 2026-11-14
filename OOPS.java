@@ -233,12 +233,12 @@ class Animals{
 
     class Shark extends Fish{
         void teeth(){
-            System.out.println("theeth have");
+            System.out.println("have teeth ");
         }
     }
     class Tuna extends Fish{
         void wings(){
-            System.out.println("wings");
+            System.out.println("have wings");
         }
     }
 
