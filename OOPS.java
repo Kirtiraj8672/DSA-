@@ -305,8 +305,8 @@ class Animals{
         //constructor in abstraction
         String color;
         Animal1(){
-            color = "Brown";
-            System.out.println("animal constr");
+            // color = "Brown";
+            System.out.println("animal constructor called ");
         }
 
 
@@ -316,6 +316,10 @@ class Animals{
         abstract void walk();
     } 
     class Horse extends Animal1{
+
+        Horse(){
+            System.out.println("");
+        }
 
         void changeColor(){
             color = " Dark Brown ";
