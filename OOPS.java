@@ -93,12 +93,7 @@ public class OOPS {
         //method overrriding 
 
         Deer doi = new Deer();
-        System.out.println(doi.eat());
-
-
-
-
-
+        doi.eat();
     }
 }
 
