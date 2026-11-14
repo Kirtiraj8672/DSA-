@@ -200,14 +200,21 @@ class Fish extends Animals{
 }
 
 //mutlilevel inheritance
-class Mammal extends Animals{
-    int legs;
+    // class Mammal extends Animals{
+    //     int legs;
 
-}
+    // }
 
-class Dog extends Mammal{
-    String breed;
+    // class Dog extends Mammal{
+    //     String breed;
 
-}
+    // }
 
 //hierarchial inheritance 
+
+class Mammal extends Animals{
+        void walks (){
+            
+        }
+
+    }
