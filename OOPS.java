@@ -285,3 +285,7 @@ class Animals{
             System.out.println("Eats grasss");
         }
     }
+
+    //abstraction
+    //abstract class
+    abstract class  
