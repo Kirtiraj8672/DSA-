@@ -165,3 +165,10 @@ class Student {
 }
 
 //inheritance
+
+class Animals{
+    String color;
+    void eat(){
+        Sy
+    }
+}
