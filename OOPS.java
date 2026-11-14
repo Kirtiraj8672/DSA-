@@ -296,6 +296,11 @@ class Animals{
     } 
     class Horse extends Animala1{
         void walk (){
-            System.out.println("walkes on four legs");
+            System.out.println("walks on four legs");
+        }
+    }
+    class Chicken extends Animala1{
+        void walk(){
+            System.out.println("");
         }
     }
