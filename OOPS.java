@@ -299,13 +299,19 @@ class Animals{
 
     //abstraction
     //abstract class
-    abstract class Animala1{
+    abstract class Animal1{
+        //constructor in abstraction
+        Animal1(){
+
+        }
+
+
         void eat (){
             System.out.println("animals_1 eats");
         }
         abstract void walk();
     } 
-    class Horse extends Animala1{
+    class Horse extends Animal1{
         void walk (){
             System.out.println("walks on four legs");
         }
