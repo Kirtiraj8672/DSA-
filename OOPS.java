@@ -294,3 +294,8 @@ class Animals{
         }
         abstract void walk();
     } 
+    class Horse extends Animala1{
+        void walk (){
+            System.out.println("walkes on four legs");
+        }
+    }
