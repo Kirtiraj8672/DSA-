@@ -167,7 +167,7 @@ class Student {
 //inheritance
 
 
-//base classs
+//base / parent classs
 class Animals{
     String color;
     void eat(){
@@ -177,4 +177,11 @@ class Animals{
     void breathe(){
         System.out.println("Breathes");
     }
+}
+
+//child / derived classs
+
+class Fish extends Animals{
+    
+
 }
