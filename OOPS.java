@@ -86,6 +86,13 @@ public class OOPS {
 
         //polmorphism
         //method overloading 
+        Calculator cal = new Calculator();
+        
+        System.out.println(cal.sum(6, 7));
+
+        //method overrriding 
+
+        Deer do = new Deer();
         
 
 
@@ -269,3 +276,16 @@ class Animals{
             return a+b+c ; 
         } 
     } 
+
+    //method overriding
+    class Animal{
+        void eat(){
+            System.out.println("eats anything");
+        }
+
+    }
+    class Deer extends Animal{
+        void eat(){
+            System.out.println("Eats grasss");
+        }
+    }
