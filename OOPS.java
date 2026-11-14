@@ -209,3 +209,5 @@ class Dog extends Mammal{
     String breed;
 
 }
+
+//hierarchial inheritance 
