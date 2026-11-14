@@ -98,7 +98,13 @@ public class OOPS {
         //abstraction
         //abstract class
 
-        Horse H 
+        Horse h = new Horse();
+        h.eat();
+        h.walk();
+
+        Chicken c = new Chicken();
+        c.eat();
+        c.walk();
     }
 }
 
