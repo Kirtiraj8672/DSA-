@@ -76,13 +76,14 @@ public class OOPS {
         shark.eat();
 
         //multilevel inheritance
-        // Dog dobby = new Dog();
-        // dobby.eat();
-        // dobby.legs= 4; 
-        // System.out.println(dobby.legs);
+        Dog dobby = new Dog();
+        dobby.eat();
+        dobby.legs= 4; 
+        System.out.println(dobby.legs);
 
         //hierarchical inheritance
-        
+        //can run any of them 
+
 
     }
 }
@@ -208,14 +209,15 @@ class Animals{
 
     // }
 
-    // class Dog extends Mammal{
-    //     String breed;
+    class Dog extends Mammal{
+        String breed;
 
-    // }
+    }
 
 //hierarchial inheritance 
 
     class Mammal extends Animals{
+        int legs;
             void walks (){
                 System.out.println("walks");
             }
