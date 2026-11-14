@@ -82,7 +82,13 @@ public class OOPS {
         System.out.println(dobby.legs);
 
         //hierarchical inheritance
-        //can run any of them 
+        //can run any of them check theory
+
+        //polmorphism
+        //method overloading 
+        
+
+
 
 
     }
