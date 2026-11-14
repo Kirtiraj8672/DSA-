@@ -290,6 +290,7 @@ class Animals{
     //abstract class
     abstract class Animala1{
         void eat (){
-            System.out.println("animals1 eats");
+            System.out.println("animals_1 eats");
         }
+        abstract void walk();
     } 
