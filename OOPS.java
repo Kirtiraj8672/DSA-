@@ -194,9 +194,12 @@ class Fish extends Animals{
 }
 
 //mutlilevel inheritance
-class Mammals extends Animals{
+class Mammal extends Animals{
     int legs;
 
 }
 
-cla
+class Dog extends Mammal{
+    String breed;
+
+}
