@@ -112,6 +112,7 @@ public class OOPS {
         System.out.println(c.color);
 
         Mustange myHorse = new Mustange();
+        
     }
 }
 
@@ -356,7 +357,7 @@ class Animals{
         }
     }
 
-//inteface 
+//interface 
 
     interface ChessPlayer{
         void moves();
@@ -367,11 +368,13 @@ class Animals{
             System.out.println("UP, DOWN , LEFT, RIGHT, DIAGONAL , IN ALL 4 DIRECTION ");
         }
     }
+
     class Rook implements ChessPlayer{
         public void moves(){
             System.out.println("UP, DOWN , LEFT, RIGHT");
         }
     }
+
     class King implements ChessPlayer{
         public void moves(){
             System.out.println("UP, DOWN , LEFT, RIGHT, DIAGONAL (by one step) ");
