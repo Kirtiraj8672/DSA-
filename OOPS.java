@@ -356,6 +356,12 @@ class Animals{
         }
     }
 
-    //inteface 
+//inteface 
 
-    interface Chess
+    interface ChessPlayer{
+        void moves();
+    }
+
+    class Queen implements ChessPlayer{
+        
+    }
