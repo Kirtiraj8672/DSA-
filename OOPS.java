@@ -230,6 +230,12 @@ class Animals{
         }
 
     }
+
+    class Shark extends Fish{
+        void teeth(){
+            Sy
+        }
+    }
     class Bird extends Animals{
 
         void fly(){
