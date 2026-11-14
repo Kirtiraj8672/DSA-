@@ -355,3 +355,7 @@ class Animals{
             System.out.println("walks on two legs");
         }
     }
+
+    //inteface 
+
+    interface Chess
