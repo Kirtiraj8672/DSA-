@@ -92,8 +92,9 @@ public class OOPS {
 
         //method overrriding 
 
-        Deer do = new Deer();
-        
+        Deer doi = new Deer();
+        System.out.println(doi.eat());
+
 
 
 
