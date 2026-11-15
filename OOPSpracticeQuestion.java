@@ -1,4 +1,4 @@
-public class OOPSpreaticeQuestion {
+public class OOPSpracticeQuestion {
 
     public static void main(String[] args) {
         Student s = new Student();
