@@ -391,8 +391,12 @@ class Animals{
     class Students{
         String name ;
         int roll ; 
-        static String schoolName;
-        
-        void setName()
 
+        static String schoolName;
+
+        void setName(String name){
+            this.name = name;
+        }
+
+        void
     }
