@@ -121,7 +121,11 @@ public class OOPS {
 
         //static keyword 
 
-        Students s1 = new Student();
+        Students s10 = new Students();
+        s10.schoolName = "BEMS";
+
+        Student s20 = new Student();
+        System.out.println();
 
     }
 }
