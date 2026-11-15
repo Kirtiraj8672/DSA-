@@ -411,3 +411,12 @@ class Animals{
             return this.name;
         }
     }
+
+    //superkeyword 
+
+    class Animal2{
+        Animal2(){
+            System.out.println("");
+        }
+        
+    }
