@@ -393,5 +393,6 @@ class Animals{
         int roll ; 
         static String schoolName;
         
+        void setName()
 
     }
