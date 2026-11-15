@@ -385,3 +385,13 @@ class Animals{
             System.out.println("UP, DOWN , LEFT, RIGHT, DIAGONAL (by one step) ");
         }
     }
+
+    //static keyword 
+
+    class Students{
+        String name ;
+        int roll ; 
+        static String schoolName;
+        
+
+    }
