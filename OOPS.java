@@ -125,7 +125,7 @@ public class OOPS {
         s10.schoolName = "BEMS";
 
         Student s20 = new Student();
-        System.out.println();
+        System.out.println(s20.schoolName);
 
     }
 }
