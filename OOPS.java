@@ -420,3 +420,7 @@ class Animals{
         }
         
     }
+    
+    class Horse1 extends Animal2{
+        
+    }
