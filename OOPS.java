@@ -118,6 +118,11 @@ public class OOPS {
 
         Queen q = new Queen();
         q.moves();
+
+        //static keyword 
+
+        Students s1 = new Student();
+
     }
 }
 
@@ -398,5 +403,7 @@ class Animals{
             this.name = name;
         }
 
-        void
+        String getName(){
+            return this.name;
+        }
     }
