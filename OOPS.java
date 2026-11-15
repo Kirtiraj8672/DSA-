@@ -126,6 +126,10 @@ public class OOPS {
 
         Students s20 = new Students();
         System.out.println(s20.schoolName);
+        
+
+        //super keyword 
+        
 
     }
 }
@@ -422,5 +426,7 @@ class Animals{
     }
     
     class Horse1 extends Animal2{
-        
+        Horse1(){
+            System.out.println("Horse constructor is called");
+        }
     }
