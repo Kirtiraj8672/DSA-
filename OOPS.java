@@ -429,9 +429,10 @@ class Animals{
     
     class Horse1 extends Animal2{
         
-        super();
+        
 
         Horse1(){
+            super();
             System.out.println("Horse constructor is called");
         }
     }
