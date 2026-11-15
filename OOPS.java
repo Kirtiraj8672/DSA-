@@ -416,7 +416,7 @@ class Animals{
 
     class Animal2{
         Animal2(){
-            System.out.println("");
+            System.out.println("animal constructor called ");
         }
         
     }
