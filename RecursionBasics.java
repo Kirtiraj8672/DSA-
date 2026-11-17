@@ -1,14 +1,15 @@
 public class RecursionBasics {
 
     public static void printDec(int n ){
-        System.out.print(n+" ");
-
+        
         if( n == 1 ){
             System.out.println(n);
             return ;
-        }else{
-            printDec(n-1);
         }
+
+            System.out.print(n+" "); 
+            printDec(n-1);
+        
 
     }
 
