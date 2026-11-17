@@ -16,8 +16,12 @@ public class RecursionBasics {
 
     //print in decreasing order 
         public static void printInc(int n ){
+            int i = 1;
+            if(n == 1){
+                
+            }
             System.out.println(1);
-            
+
         }
 
 
