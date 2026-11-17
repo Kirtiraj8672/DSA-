@@ -89,7 +89,9 @@ public class RecursionBasics {
         public static void findKeyLast(int arr[] , int i , int key , int storevalue){
 
             if(i == arr.length){
+                if(storevalue == 0 ){
                 System.out.println("key not found");
+                }
                 return ;
             }
             if(arr[i] == key){
