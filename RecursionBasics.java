@@ -91,7 +91,6 @@ public class RecursionBasics {
             if(i == arr.length){
                 if(storevalue == 0 ){
                 System.out.println("key not found");
-                
                 }
                 return ;
             }
@@ -100,6 +99,7 @@ public class RecursionBasics {
             }
             findKeyLast(arr, i+1, key , storevalue);
 
+            return ;
             
             
 
