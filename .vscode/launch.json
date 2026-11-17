@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RecursionBasics",
+            "request": "launch",
+            "mainClass": "RecursionBasics",
+            "projectName": "DSA _f32dbcfb"
+        },
+        {
+            "type": "java",
             "name": "OOPS",
             "request": "launch",
             "mainClass": "OOPS",
