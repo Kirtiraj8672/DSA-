@@ -28,6 +28,9 @@ public class RecursionBasics {
             System.out.print(n + " ");
         }
 
+        public static void fact(int n ){
+            S
+        }
 
     public static void main(String args[]){
 
@@ -37,6 +40,9 @@ public class RecursionBasics {
 
         //print in increasing order 
             printInc(n);
+
+        //factorial 
+            fact(n);
 
     }
 }
