@@ -48,7 +48,7 @@ public class RecursionBasics {
             printInc(n);
 
         //factorial 
-            System.out.println(fact(n);
+            System.out.println(fact(n));
 
     }
 }
