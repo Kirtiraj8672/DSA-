@@ -60,6 +60,10 @@ public class RecursionBasics {
         return (fib(n -1) + fib(n-2));
         }
 
+        //check if a array is sorted or not
+
+        public static int is
+
 
     public static void main(String args[]){
 
@@ -80,6 +84,10 @@ public class RecursionBasics {
         //fibonacci number 
             System.out.println(fib(5));
             System.out.println(fib(10));
+
+        //check if a array is sorted or not 
+        int arr[] = {1,2,3,4,5};
+
 
 
 
