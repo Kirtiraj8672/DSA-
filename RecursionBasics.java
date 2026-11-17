@@ -36,7 +36,7 @@ public class RecursionBasics {
             
             return  n * fact(n-1);
         }
-        
+
         //sum of first n natural number 
 
         public static int sum(int n ){
@@ -46,6 +46,11 @@ public class RecursionBasics {
 
             return (n + sum(n-1));
         }
+        //fibonacci number 
+
+        //basse case
+        
+
 
     public static void main(String args[]){
 
@@ -62,6 +67,9 @@ public class RecursionBasics {
         //sum of first n natural number 
             System.out.println(sum(n));
             System.out.println(sum(5));
+
+        //fibonacci number 
+
 
 
 
