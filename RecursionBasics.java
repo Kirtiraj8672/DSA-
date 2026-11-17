@@ -74,6 +74,12 @@ public class RecursionBasics {
         //WAF to find the first occurence of an element in an array 
 
         public static void findKey(int arr[] , int i , int key ){
+            if(i == arr.length){
+                System.out.println(
+                    
+                );
+                return ;
+            }
             if(arr[i] == key){
                 System.out.print("Key found at index : " + i);
                 return ;
@@ -108,7 +114,7 @@ public class RecursionBasics {
 
         //WAF to find the first occurence of an element in an array 
             int arrfind[] = {8,3,6,9,5,10,2,5,3};
-            findKey(arrfind, 0, 5);
+            findKey(arrfind, 0, 1);
 
 
 
