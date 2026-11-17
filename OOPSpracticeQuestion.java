@@ -11,4 +11,3 @@ public class OOPSpracticeQuestion {
         int marks;
     }
 
-hfjfgif
