@@ -34,7 +34,8 @@ public class RecursionBasics {
                 return 1 ;
             }
             int factorial = fact(n-1);
-            return( n  * factorial);
+            int fn = n * fact(n-1);
+            return fn;
         }
 
     public static void main(String args[]){
