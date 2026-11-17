@@ -14,7 +14,7 @@ public class RecursionBasics {
 
         }
 
-    //print in decreasing order 
+    //print in increasing order 
         public static void printInc(int n ){
             int i = 1;
             if(n == 1){
@@ -22,8 +22,8 @@ public class RecursionBasics {
                 return;
             }
             System.out.println(i);
-            i++;
-            n--;
+            
+            printInc(n-1);
         }
 
 
@@ -33,7 +33,7 @@ public class RecursionBasics {
             int n = 10 ;
             printDec(n);
 
-        //print in decreasing order 
+        //print in increasing order 
             printInc(n);
 
     }
