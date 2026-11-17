@@ -71,6 +71,9 @@ public class RecursionBasics {
             }
             return isSorted(arr, i+1);
         }
+        //WAF to find the first occurence of an element in an array 
+
+        
 
 
     public static void main(String args[]){
@@ -96,6 +99,9 @@ public class RecursionBasics {
         //check if a array is sorted or not 
         int arr[] = {1,2,3,4,5};
         System.out.println(isSorted(arr, 0));
+
+        //WAF to find the first occurence of an element in an array 
+
 
 
 
