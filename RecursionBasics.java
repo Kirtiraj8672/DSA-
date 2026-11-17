@@ -29,6 +29,10 @@ public class RecursionBasics {
         }
 
         public static void fact(int n ){
+
+            if(n == 1 ){
+                return ;
+            }
             int factorial =(n) * fact(n-1);
             System.out.print(factorial);
         }
