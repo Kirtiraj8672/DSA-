@@ -16,14 +16,16 @@ public class RecursionBasics {
 
     //print in increasing order 
         public static void printInc(int n ){
-            int i = 1;
+            
             if(n == 1){
-                System.out.println(n);
+                System.out.print(n + " ");
                 return;
             }
-            System.out.println(i);
+            
             
             printInc(n-1);
+
+            System.out.print(n + " ");
         }
 
 
