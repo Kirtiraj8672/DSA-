@@ -93,7 +93,7 @@ public class RecursionBasics {
                 return ;
             }
             if(arr[i] == key){
-                 int storeKey = i;
+                 storevalue = i;
             }
             findKeyLast(arr, i+1, key , storevalue);
 
