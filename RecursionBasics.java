@@ -30,11 +30,11 @@ public class RecursionBasics {
 
         public static void fact(int n ){
 
-            if(n == 1 ){
-                return ;
+            if(n == 0 ){
+                return 1 ;
             }
-            int factorial =(n) * fact(n-1);
-            System.out.print(factorial);
+            int factorial = fact(n-1);
+            System.out.print( n  * factorial);
         }
 
     public static void main(String args[]){
