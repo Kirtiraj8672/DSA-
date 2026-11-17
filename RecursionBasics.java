@@ -36,6 +36,11 @@ public class RecursionBasics {
             
             return  n * fact(n-1);
         }
+        //sum of first n natural number 
+
+        public static int sum(int n ){
+            if(n == 1)
+        }
 
     public static void main(String args[]){
 
@@ -48,6 +53,9 @@ public class RecursionBasics {
 
         //factorial 
             System.out.println(fact(n));
+
+        //sum of first n natural number 
+
 
     }
 }
