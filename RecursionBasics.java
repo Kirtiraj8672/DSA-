@@ -39,7 +39,11 @@ public class RecursionBasics {
         //sum of first n natural number 
 
         public static int sum(int n ){
-            if(n == 1)
+            if(n == 1){
+                return 1 ; 
+            }
+
+            return (n + sum(n-1));
         }
 
     public static void main(String args[]){
@@ -55,6 +59,8 @@ public class RecursionBasics {
             System.out.println(fact(n));
 
         //sum of first n natural number 
+            System.out.println(sum(n));
+
 
 
     }
