@@ -67,6 +67,7 @@ public class RecursionBasics {
                 isSorted(arr, n+1);
                 System.out.println(" sorted ");
             }else{
+                System.out.println(" un sorted ");
 
             }
         }
@@ -94,6 +95,7 @@ public class RecursionBasics {
 
         //check if a array is sorted or not 
         int arr[] = {1,2,3,4,5};
+        isSorted(arr, n);
 
 
 
