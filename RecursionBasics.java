@@ -36,6 +36,7 @@ public class RecursionBasics {
             
             return  n * fact(n-1);
         }
+        
         //sum of first n natural number 
 
         public static int sum(int n ){
