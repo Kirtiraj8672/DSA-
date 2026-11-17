@@ -1,10 +1,11 @@
 public class RecursionBasics {
 
     public static void printDec(int n ){
-        System.out.println(n);
+        System.out.print(n+" ");
 
         if( n == 1 ){
-            System.out.println(1);
+            System.out.println(n);
+            return ;
         }else{
             printDec(n-1);
         }
@@ -13,5 +14,6 @@ public class RecursionBasics {
 
     public static void main(String args[]){
         int n = 10 ;
+        printDec(n);
     }
 }
