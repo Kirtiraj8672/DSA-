@@ -63,12 +63,11 @@ public class RecursionBasics {
         //check if a array is sorted or not
 
         public static boolean isSorted(int arr[] , int i ){
-            if( arr[i] <= arr[i+1]){
-                isSorted(arr, i+1);
-                System.out.println(" sorted ");
-            }else{
-                System.out.println(" un sorted ");
-
+            if( i == arr.length-1){
+                return true;
+            }
+            if(arr[i] > arr[i+1]){
+                r
             }
         }
 
