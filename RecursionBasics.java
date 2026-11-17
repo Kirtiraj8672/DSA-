@@ -73,7 +73,12 @@ public class RecursionBasics {
         }
         //WAF to find the first occurence of an element in an array 
 
-        
+        public static int findKey(int arr[] , int i , int key ){
+            if(arr[i] == key){
+                return i;
+            }
+            findKey(arr, i+1, key);
+        }
 
 
     public static void main(String args[]){
