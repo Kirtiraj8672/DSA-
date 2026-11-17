@@ -73,9 +73,9 @@ public class RecursionBasics {
         }
         //WAF to find the first occurence of an element in an array 
 
-        public static int findKey(int arr[] , int i , int key ){
+        public static void findKey(int arr[] , int i , int key ){
             if(arr[i] == key){
-                return i;
+                System.out.print(i);
             }
             findKey(arr, i+1, key);
         }
@@ -102,10 +102,11 @@ public class RecursionBasics {
             System.out.println(fib(10));
 
         //check if a array is sorted or not 
-        int arr[] = {1,2,3,4,5};
-        System.out.println(isSorted(arr, 0));
+            int arr[] = {1,2,3,4,5};
+            System.out.println(isSorted(arr, 0));
 
         //WAF to find the first occurence of an element in an array 
+            findKey(arr, 0, 5);
 
 
 
