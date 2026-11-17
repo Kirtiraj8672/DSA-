@@ -60,6 +60,7 @@ public class RecursionBasics {
 
         //sum of first n natural number 
             System.out.println(sum(n));
+            System.out.println(sum(5));
 
 
 
