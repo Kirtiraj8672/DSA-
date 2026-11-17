@@ -78,6 +78,7 @@ public class RecursionBasics {
             System.out.println(sum(5));
 
         //fibonacci number 
+            System.out.println(fib(5));
 
 
 
