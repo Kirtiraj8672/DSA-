@@ -75,9 +75,7 @@ public class RecursionBasics {
 
         public static void findKey(int arr[] , int i , int key ){
             if(i == arr.length){
-                System.out.println(
-                    
-                );
+                System.out.println("key not found");
                 return ;
             }
             if(arr[i] == key){
