@@ -29,7 +29,8 @@ public class RecursionBasics {
         }
 
         public static void fact(int n ){
-            S
+            int factorial =(n) * fact(n-1);
+            System.out.print(factorial);
         }
 
     public static void main(String args[]){
