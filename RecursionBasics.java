@@ -75,7 +75,7 @@ public class RecursionBasics {
 
         public static void findKey(int arr[] , int i , int key ){
             if(arr[i] == key){
-                System.out.print("Key found at index : "i);
+                System.out.print("Key found at index : " + i);
                 return ;
             }
             findKey(arr, i+1, key);
