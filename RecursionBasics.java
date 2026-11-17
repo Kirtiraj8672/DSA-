@@ -85,6 +85,11 @@ public class RecursionBasics {
             findKey(arr, i+1, key);
         }
 
+        //Find the last occurrence of an element in an array.
+        public static void findKeyLast(int arr[] , int i , int key){
+            
+        }
+
 
     public static void main(String args[]){
 
@@ -115,7 +120,8 @@ public class RecursionBasics {
             findKey(arrfind, 0, 1);
 
         //Find the last occurrence of an element in an array.
-            int arr
+            int arrfindlast[] = {8, 3, 6, 9, 5, 10, 2, 5, 3};
+            int key = 5;
 
 
 
