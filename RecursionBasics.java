@@ -137,8 +137,8 @@ public class RecursionBasics {
 
         //Find the last occurrence of an element in an array.
             int arrfindlast[] = {8, 3, 6, 9, 5, 10, 2, 5, 3};
-            int key = 5;
-            findKeyLast(arrfindlast, n, key);
+            int key = 3;
+            findKeyLast(arrfindlast, 0, key);
 
 
 
