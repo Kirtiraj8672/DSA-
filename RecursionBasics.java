@@ -107,7 +107,14 @@ public class RecursionBasics {
             return isFound;
         }
         
-        public static int Pow(int n , int n ){}
+        public static int Pow(int x , int n ){
+
+            if(n == 0 ){
+                return 1 ; 
+            }
+
+            return x * Pow(x, n-1); 
+        }
 
         
 
@@ -147,6 +154,7 @@ public class RecursionBasics {
         System.out.println(lastOccurence(arrfind, 5, 0));
 
         //print p^n
+        System.out.println(Pow(2, 4));
 
 
 
