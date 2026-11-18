@@ -91,7 +91,10 @@ public class RecursionBasics {
         }
 
         //Find the last occurrence of an element in an array.
-        publ
+        public static int lastOccurence(int arr[], int key , int i){
+
+            int i
+        }
         
 
         
