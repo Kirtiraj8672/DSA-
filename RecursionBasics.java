@@ -92,15 +92,19 @@ public class RecursionBasics {
 
         //Find the last occurrence of an element in an array.
         public static int lastOccurence(int arr[], int key , int i){
+
+            //base case 
+            if(i == arr.length){
+                return -1;
+            }
+
             //check forward
             int isFound = lastOccurence(arr, key, i+1);
             if( isFound == -1 && arr[i] == key){
                 return i;
             }
 
-            return 
-            
-
+            return isFound;
         }
         
 
