@@ -94,15 +94,13 @@ public class RecursionBasics {
         public static int lastOccurence(int arr[], int key , int i){
             //check forward
             int isFound = lastOccurence(arr, key, i+1);
-            if( isFound != -1){
-                return isFound;
+            if( isFound == -1 && arr[i] == key){
+                return i;
             }
 
-            //check with self 
-            if(arr[i] == key){
-                return i ;
-            }
+            return 
             
+
         }
         
 
