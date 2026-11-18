@@ -107,6 +107,7 @@ public class RecursionBasics {
             return isFound;
         }
         
+        public static int Pow(int n , int n ){}
 
         
 
@@ -144,6 +145,9 @@ public class RecursionBasics {
 
         //Find the last occurrence of an element in an array.
         System.out.println(lastOccurence(arrfind, 5, 0));
+
+        //print p^n
+
 
 
 
