@@ -79,7 +79,7 @@ public class RecursionBasics {
                 return ;
             }
             if(arr[i] == key){
-                System.out.print("Key found at index : " + i);
+                System.out.println("Key found at index : " + i);
                 return ;
             }
             findKey(arr, i+1, key);
@@ -136,12 +136,14 @@ public class RecursionBasics {
         System.out.println("WAF to find the first occurence of an element in an array ");
             int arrfind[] = {8,3,6,9,5,10,2,5,3};
             findKey(arrfind, 0, 1);
+            findKey(arrfind, 0, 3);
+            findKey(arrfind, 0, 2);
 
-        //Find the last occurrence of an element in an array.
-            int arrfindlast[] = {8, 3, 6, 9, 5, 10, 2, 5, 3};
-            int key = 3;
-            int storevalue = 0 ;
-            findKeyLast(arrfindlast, 0, key , storevalue);
+        // //Find the last occurrence of an element in an array.
+        //     int arrfindlast[] = {8, 3, 6, 9, 5, 10, 2, 5, 3};
+        //     int key = 3;
+        //     int storevalue = 0 ;
+        //     findKeyLast(arrfindlast, 0, key , storevalue);
 
 
 
