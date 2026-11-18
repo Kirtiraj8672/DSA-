@@ -133,6 +133,7 @@ public class RecursionBasics {
             System.out.println(isSorted(arr, 0));
 
         //WAF to find the first occurence of an element in an array 
+        System.out.println("WAF to find the first occurence of an element in an array ");
             int arrfind[] = {8,3,6,9,5,10,2,5,3};
             findKey(arrfind, 0, 1);
 
