@@ -86,24 +86,7 @@ public class RecursionBasics {
         }
 
         //Find the last occurrence of an element in an array.
-        public static void findKeyLast(int arr[] , int i , int key , int storevalue){
-
-            if(i == arr.length){
-                if(storevalue == 0 ){
-                System.out.println("key not found");
-                }
-                return ;
-            }
-            if(arr[i] == key){
-                 storevalue = i;
-            }
-            findKeyLast(arr, i+1, key , storevalue);
-
-            return ;
-            
-            
-
-        }
+        
 
         
 
@@ -140,11 +123,7 @@ public class RecursionBasics {
             findKey(arrfind, 0, 2);
 
         // //Find the last occurrence of an element in an array.
-        //     int arrfindlast[] = {8, 3, 6, 9, 5, 10, 2, 5, 3};
-        //     int key = 3;
-        //     int storevalue = 0 ;
-        //     findKeyLast(arrfindlast, 0, key , storevalue);
-
+    
 
 
 
