@@ -154,7 +154,7 @@ public class RecursionBasics {
         System.out.println(lastOccurence(arrfind, 5, 0));
 
         //print p^n
-        System.out.println(Pow(2, 4));
+        System.out.println("printing power "+Pow(2, 4));
 
 
 
