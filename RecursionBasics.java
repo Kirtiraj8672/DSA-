@@ -126,9 +126,10 @@ public class RecursionBasics {
             int halfpowsq = halfPow * halfPow;
 
             if(n % 2 != 0){
-                halfpowsq = 2 * halfPow;
+                halfpowsq = 2 * halfPowsq;
 
             }
+            return halfpowsq;
         }
 
 
