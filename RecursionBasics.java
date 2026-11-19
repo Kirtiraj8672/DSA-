@@ -121,12 +121,12 @@ public class RecursionBasics {
                 return 1 ; 
             }
 
-            int halfPow = Pow(x, n/2);
+            int halfPow = optPow(x, n/2);
 
             int halfpowsq = halfPow * halfPow;
 
             if(n % 2 != 0){
-                halfpowsq = 2 * halfPowsq;
+                halfpowsq = x * halfpowsq;
 
             }
             return halfpowsq;
