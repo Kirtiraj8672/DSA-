@@ -173,12 +173,5 @@ public class RecursionBasics {
         //optimized solution of print p^n
         System.out.println("optimized printing power "+ optPow(2, 10));
 
-
-
-
-
-
-
-
     }
 }
