@@ -106,7 +106,7 @@ public class RecursionBasics {
 
             return isFound;
         }
-        
+        //print p^n
         public static int Pow(int x , int n ){
 
             if(n == 0 ){
@@ -115,8 +115,10 @@ public class RecursionBasics {
 
             return x * Pow(x, n-1); 
         }
-
-        
+        //optimized solution of print p^n
+        public static int optPow(int x , int n ){
+            
+        }
 
 
     public static void main(String args[]){
@@ -156,7 +158,7 @@ public class RecursionBasics {
         //print p^n
         System.out.println("printing power "+Pow(2, 4));
 
-        //optimized solution of print p ^n
+        //optimized solution of print p^n
 
 
 
