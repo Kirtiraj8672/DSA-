@@ -121,11 +121,9 @@ public class RecursionBasics {
                 return 1 ; 
             }
 
-            if( n % 2 == 0){
-                return optPow(x, n/2) * optPow(x, n/2); 
-            }else{
-                return x * optPow(x, n/2) * optPow(x, n/2); 
-            }
+            int halfPow = Pow(x, n/2);
+
+            INT
         }
 
 
