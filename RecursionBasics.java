@@ -124,7 +124,7 @@ public class RecursionBasics {
             if( n % 2 == 0){
                 return optPow(x, n/2) * optPow(x, n/2); 
             }else{
-                return x * optPow(x, n/2); 
+                return x * optPow(x, n/2) * optPow(x, n/2); 
             }
         }
 
@@ -167,6 +167,9 @@ public class RecursionBasics {
         System.out.println("printing power "+Pow(2, 4));
 
         //optimized solution of print p^n
+        System.out.println("optimized printing power "+ optPow(2, 10));
+
+
 
 
 
