@@ -123,7 +123,12 @@ public class RecursionBasics {
 
             int halfPow = Pow(x, n/2);
 
-            INT
+            int halfpowsq = halfPow * halfPow;
+
+            if(n % 2 != 0){
+                halfpowsq = 2 * halfPow;
+
+            }
         }
 
 
