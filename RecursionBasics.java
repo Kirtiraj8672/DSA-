@@ -156,6 +156,8 @@ public class RecursionBasics {
         //print p^n
         System.out.println("printing power "+Pow(2, 4));
 
+        //optimized solution of print p ^n
+
 
 
 
